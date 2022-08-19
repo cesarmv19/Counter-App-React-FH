@@ -1,0 +1,21 @@
+Archivos del proyecto:
+
+-node_modules: contiene una gran cantidad de librerías que hacen funcionar a react, contiene modulos y paquetes de configuraciones. nunca vamos a manipular estas carpetas directamente.
+
+-public: tenemos una pagina web comun y corriente, imagenes e iconos que utiliza react para el proyecto cuando se crea.
+manifest.json, tiene configuraciones de pwa, no tiene que ver con react.
+
+-.gitignore: se maneja por git, usa para decirle que carpetas y archivos quiero que ignore git, los modulos de node_modules yo no los necesito.
+
+-package.json: usualmente no tocamos directamente, salvo algunos scripts, el archivo json tiene su estructura específica, generalmente miramos si nuestras dependencias se instalaron correctamente.
+
+-Carpeta SRC o source:
+	-app.css: es un archivo de estilos que está enlazada a un componente (app.js)
+	-app.js: es el componente, donde vamos a desarrollar para cada una de las partes de nuestra app.
+	-app.test.js: es el archivo de prueba del componente, sirve para testear algunas funcionalidades del componente.
+	-index.css: archivo de estilos global de la aplicación.
+	-index.js: es el punto inicial de la app.
+	-logo.svg: es un archivo para el proyecto inical de react.
+	-serviceWorker.js: pwa, no vamos a tocar.
+	-setupTests.js: es algo que se ejecuta en el momento que estamos probando la app, en el test o pruebas.
+
